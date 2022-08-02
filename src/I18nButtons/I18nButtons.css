@@ -1,0 +1,30 @@
+.language {
+  color: black;
+  position: relative;
+  width: 150px;
+  min-height: 50px;
+  cursor: pointer;
+}
+
+.chosen-language:hover {
+  background: rgba(138, 162, 122, 0.5);
+}
+.languages {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 150px;
+}
+
+.languages > * {
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.languages > *.selected {
+  background: #8aa27a;
+}
+
+.languages > *:hover {
+  background: rgba(138, 162, 122, 0.5);
+}

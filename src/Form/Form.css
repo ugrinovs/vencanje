@@ -1,0 +1,59 @@
+.forma {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-bottom: 55px;
+  font-size: 24px;
+  width: 50%;
+}
+
+.ime-prezime {
+  margin: 0.5rem 0;
+  border-radius: 10px;
+  height: 60px;
+  font-size: 24px;
+  color: #548372;
+  padding-left: 5px;
+}
+
+.ime-prezime:not(:focus) {
+  background: lightgrey;
+}
+
+.dugme {
+  background: #8aa27a;
+  height: 60px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ikonica {
+  display: flex;
+  align-items: center;
+  background: #a7bb9a;
+  justify-content: center;
+  color: #ffdca9;
+  width: 36px;
+  height: 36px;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 50%;
+}
+
+.napomena {
+  margin-top: 0.5rem;
+  font-size: 24px;
+}
+
+.submit {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  //background: #a7bb9a;
+  justify-content: center;
+  //color: white;
+  font-size: 24px;
+  border-radius: 10px;
+}

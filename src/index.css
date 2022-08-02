@@ -1,13 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Frank+Ruhl+Libre:wght@500&family=Parisienne&family=Ultra&display=swap");
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /*overflow: hidden;*/
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.image-scroll {
+  display: inline-block;
+  max-width: 950px;
+  min-width: 200px;
+  height: auto;
+  width: 100%;
+  min-height: 200px;
+  max-height: 950px;
+}
+
+.image-scroll_image {
+  width: inherit;
+  max-width: 950px;
+  min-width: 200px;
+  max-height: 950px;
+  min-height: 200px;
+  height: auto;
+}
+
+.text {
+  font-family: "Lovely Grace";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 42px;
+  color: #548372;
+}
+
+.text > * {
+  padding: 3rem 0;
+  opacity: 0;
+  height: 0;
+}
+
+.show {
+  opacity: 1;
+  height: 100%;
+  transition: all 1s ease-in;
+}
+
+.number {
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.rsvp > .number {
+  font-size: 32px;
+}
+
+.datum > span {
+  font-family: "Frank Ruhl Libre";
+  font-size: 72px;
+  padding: 2rem;
+  font-style: normal;
+  font-weight: normal;
+  background: -webkit-linear-gradient(
+    0deg,
+    rgb(148, 114, 71) 0%,
+    rgb(241, 200, 141) 50%,
+    rgb(148, 114, 71) 100%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.lokacija {
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.porodice > span {
+  padding: 2rem;
+  background: -webkit-linear-gradient(
+    0deg,
+    rgb(148, 114, 71) 0%,
+    rgb(241, 200, 141) 50%,
+    rgb(148, 114, 71) 100%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.vdivider {
+  display: flex;
+  width: 5px;
+  background: linear-gradient(
+    0deg,
+    rgb(195, 156, 82) 0%,
+    rgb(241, 200, 141) 50%,
+    rgb(195, 156, 82) 100%
+  );
+  align-items: center;
+  margin: 0 1.2rem;
 }
