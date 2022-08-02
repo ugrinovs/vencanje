@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/vencanje/static/css/main.cc6b4886.css",
-    "main.js": "/vencanje/static/js/main.688a352a.js",
-    "static/js/787.78fd2e3a.chunk.js": "/vencanje/static/js/787.78fd2e3a.chunk.js",
-    "static/media/pozivnica-prednja.jpg": "/vencanje/static/media/pozivnica-prednja.80884cd8722861c31976.jpg",
-    "static/media/subset-LovelyGraceBG.woff": "/vencanje/static/media/subset-LovelyGraceBG.7bc360e9802181a3ac1c.woff",
-    "static/media/subset-LovelyGraceBG.woff2": "/vencanje/static/media/subset-LovelyGraceBG.f32e2893be7a587e3444.woff2",
-    "index.html": "/vencanje/index.html",
-    "static/media/getFetch.cjs": "/vencanje/static/media/getFetch.c780682470504fffbd04.cjs",
-    "main.cc6b4886.css.map": "/vencanje/static/css/main.cc6b4886.css.map",
-    "main.688a352a.js.map": "/vencanje/static/js/main.688a352a.js.map",
-    "787.78fd2e3a.chunk.js.map": "/vencanje/static/js/787.78fd2e3a.chunk.js.map"
+    "main.css": "/static/css/main.8b2f1563.css",
+    "main.js": "/static/js/main.ca3b1337.js",
+    "static/js/787.78fd2e3a.chunk.js": "/static/js/787.78fd2e3a.chunk.js",
+    "static/media/pozivnica-prednja.jpg": "/static/media/pozivnica-prednja.80884cd8722861c31976.jpg",
+    "static/media/subset-LovelyGraceBG.woff": "/static/media/subset-LovelyGraceBG.7bc360e9802181a3ac1c.woff",
+    "static/media/subset-LovelyGraceBG.woff2": "/static/media/subset-LovelyGraceBG.f32e2893be7a587e3444.woff2",
+    "index.html": "/index.html",
+    "static/media/getFetch.cjs": "/static/media/getFetch.c780682470504fffbd04.cjs",
+    "main.8b2f1563.css.map": "/static/css/main.8b2f1563.css.map",
+    "main.ca3b1337.js.map": "/static/js/main.ca3b1337.js.map",
+    "787.78fd2e3a.chunk.js.map": "/static/js/787.78fd2e3a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc6b4886.css",
-    "static/js/main.688a352a.js"
+    "static/css/main.8b2f1563.css",
+    "static/js/main.ca3b1337.js"
   ]
 }
