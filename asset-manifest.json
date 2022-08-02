@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/vencanje/static/css/main.073c9b0a.css",
-    "main.js": "/vencanje/static/js/main.acc40a34.js",
+    "main.css": "/vencanje/static/css/main.cc6b4886.css",
+    "main.js": "/vencanje/static/js/main.688a352a.js",
     "static/js/787.78fd2e3a.chunk.js": "/vencanje/static/js/787.78fd2e3a.chunk.js",
-    "static/media/logo.svg": "/vencanje/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/pozivnica-prednja.jpg": "/vencanje/static/media/pozivnica-prednja.80884cd8722861c31976.jpg",
+    "static/media/subset-LovelyGraceBG.woff": "/vencanje/static/media/subset-LovelyGraceBG.7bc360e9802181a3ac1c.woff",
+    "static/media/subset-LovelyGraceBG.woff2": "/vencanje/static/media/subset-LovelyGraceBG.f32e2893be7a587e3444.woff2",
     "index.html": "/vencanje/index.html",
-    "main.073c9b0a.css.map": "/vencanje/static/css/main.073c9b0a.css.map",
-    "main.acc40a34.js.map": "/vencanje/static/js/main.acc40a34.js.map",
+    "static/media/getFetch.cjs": "/vencanje/static/media/getFetch.c780682470504fffbd04.cjs",
+    "main.cc6b4886.css.map": "/vencanje/static/css/main.cc6b4886.css.map",
+    "main.688a352a.js.map": "/vencanje/static/js/main.688a352a.js.map",
     "787.78fd2e3a.chunk.js.map": "/vencanje/static/js/787.78fd2e3a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.acc40a34.js"
+    "static/css/main.cc6b4886.css",
+    "static/js/main.688a352a.js"
   ]
 }
