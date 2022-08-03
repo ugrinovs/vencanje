@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.8b2f1563.css",
-    "main.js": "/static/js/main.9c404380.js",
+    "main.css": "/static/css/main.ee5c2731.css",
+    "main.js": "/static/js/main.c99a090e.js",
     "static/js/787.78fd2e3a.chunk.js": "/static/js/787.78fd2e3a.chunk.js",
     "static/media/pozivnica-prednja.jpg": "/static/media/pozivnica-prednja.80884cd8722861c31976.jpg",
     "static/media/subset-LovelyGraceBG.woff": "/static/media/subset-LovelyGraceBG.7bc360e9802181a3ac1c.woff",
     "static/media/subset-LovelyGraceBG.woff2": "/static/media/subset-LovelyGraceBG.f32e2893be7a587e3444.woff2",
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.c780682470504fffbd04.cjs",
-    "main.8b2f1563.css.map": "/static/css/main.8b2f1563.css.map",
-    "main.9c404380.js.map": "/static/js/main.9c404380.js.map",
+    "main.ee5c2731.css.map": "/static/css/main.ee5c2731.css.map",
+    "main.c99a090e.js.map": "/static/js/main.c99a090e.js.map",
     "787.78fd2e3a.chunk.js.map": "/static/js/787.78fd2e3a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b2f1563.css",
-    "static/js/main.9c404380.js"
+    "static/css/main.ee5c2731.css",
+    "static/js/main.c99a090e.js"
   ]
 }
