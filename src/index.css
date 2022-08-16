@@ -16,7 +16,7 @@ code {
 
 .image-scroll {
   display: inline-block;
-  max-width: 950px;
+  max-width: 100%;
   min-width: 200px;
   height: auto;
   width: 100%;
@@ -26,7 +26,7 @@ code {
 
 .image-scroll_image {
   width: inherit;
-  max-width: 950px;
+  max-width: 100%;
   min-width: 200px;
   max-height: 950px;
   min-height: 200px;
@@ -112,4 +112,8 @@ code {
   );
   align-items: center;
   margin: 0 1.2rem;
+}
+
+hr {
+  width: 100%;
 }

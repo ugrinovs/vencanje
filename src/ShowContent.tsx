@@ -5,9 +5,10 @@ interface ShowContentProps {
   identifier: string;
   children: any;
   delay?: number;
+  offset?: number;
 }
 
-function isInViewPort(boundClientRect: DOMRect) {
+function isInViewPort(boundClientRect: DOMRect, offset: number) {
   //console.log(
   //  "bbt",
   //  boundClientRect.top,
@@ -19,8 +20,8 @@ function isInViewPort(boundClientRect: DOMRect) {
   //  }
   //);
   return !(
-    boundClientRect.top + boundClientRect.height > window.innerHeight ||
-    boundClientRect.bottom < 0
+    (boundClientRect.top + boundClientRect.height + offset ?? 0) >
+      window.innerHeight || boundClientRect.bottom < 0
   );
 }
 function ShowContent({
@@ -28,6 +29,7 @@ function ShowContent({
   identifier,
   children,
   delay = 0,
+  offset = 0,
 }: ShowContentProps) {
   const elRef = useRef<HTMLDivElement>(null);
 
@@ -37,10 +39,10 @@ function ShowContent({
       if (element) {
         const bb = element?.getBoundingClientRect();
         //console.log("iivp", element.classList, isInViewPort(bb));
-        if (isInViewPort(bb)) {
+        if (isInViewPort(bb, offset)) {
           if (element.classList.contains("rsvp")) {
             console.log({
-              show: isInViewPort(bb),
+              show: isInViewPort(bb, offset),
               top: {
                 isIn: bb.top < window.innerHeight,
                 top: bb.top,
@@ -61,9 +63,11 @@ function ShowContent({
     };
 
     document.addEventListener("wheel", scrollListener);
+    document.addEventListener("touchmove", scrollListener);
 
     return () => {
       document.removeEventListener("wheel", scrollListener);
+      document.removeEventListener("touchmove", scrollListener);
     };
   }, [delay]);
   return (

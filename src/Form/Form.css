@@ -7,6 +7,18 @@
   width: 50%;
 }
 
+@media screen and (max-width: 900px) {
+  .forma {
+    width: 90%;
+    padding: 0 10px;
+  }
+}
+
+.ime-prezime-container {
+  display: flex;
+  align-items: center;
+}
+
 .ime-prezime {
   margin: 0.5rem 0;
   border-radius: 10px;
@@ -14,9 +26,22 @@
   font-size: 24px;
   color: #548372;
   padding-left: 5px;
+  width: 100%;
 }
 
-.ime-prezime:not(:focus) {
+.trash {
+  cursor: pointer;
+}
+
+.trash:hover > svg {
+  transition: all 0.1s ease-in;
+  filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+}
+.trash > svg {
+  fill: #548372;
+}
+
+.ime-prezime:not(:focus).ime-prezime[value=""] {
   background: lightgrey;
 }
 
@@ -27,6 +52,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 5px;
+  cursor: pointer;
 }
 
 .ikonica {
@@ -49,11 +76,23 @@
 
 .submit {
   width: 100%;
+  cursor: pointer;
   display: flex;
   align-items: center;
-  //background: #a7bb9a;
   justify-content: center;
-  //color: white;
   font-size: 24px;
+  height: 60px;
   border-radius: 10px;
+  margin-top: 5px;
+}
+
+.submit:not([disabled]) {
+  color: white;
+  background: #a7bb9a;
+  box-shadow: -2px -2px 5px 0px #5a5a5a inset;
+}
+
+.dugme:hover,
+.submit:hover:not([disabled]) {
+  filter: brightness(85%);
 }

@@ -1,5 +1,7 @@
-import React, { Suspense } from "react";
+import React, { Suspense, useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
+import { BackendService, Guest } from "./api/backendService";
+import { GeoLocationService } from "./api/geoLocationService";
 import "./App.css";
 import pozivnicaPrednja from "./assets/pozivnica-prednja.jpg";
 import Form from "./Form/Form";
@@ -7,12 +9,30 @@ import I18nButtons from "./I18nButtons/I18nButtons";
 import ImageScroll from "./ImageScroll/ImageScroll";
 import ShowContent from "./ShowContent";
 
+console.log("RAAU", process.env.REACT_APP_API_URL);
+const geoLocationService = new GeoLocationService();
+const guestsService = new BackendService();
 function Page() {
+  const [guest, setGuest] = useState<Guest | undefined>(undefined);
   const { t, i18n } = useTranslation();
 
   const changeLanguage = (lng: string) => {
     i18n.changeLanguage(lng);
   };
+
+  useEffect(() => {
+    geoLocationService.getIpAddress().then((ipAddress) => {
+      console.log("here ip", ipAddress);
+      guestsService
+        .addGuest({
+          ip: ipAddress,
+        })
+        .then((data) => {
+          setGuest(data);
+          console.log("recv", data);
+        });
+    });
+  }, []);
 
   return (
     <div className="App">
@@ -80,7 +100,7 @@ function Page() {
             }}
           />
         </ShowContent>
-        <ShowContent identifier="porodice" className="porodice" delay={1000}>
+        <ShowContent identifier="porodice" className="porodice" delay={400}>
           <div className="porodice">
             <span>{t("porodice")}</span>
           </div>
@@ -89,9 +109,9 @@ function Page() {
       <ShowContent
         className="forma-container"
         identifier="forma-container"
-        delay={1200}
+        offset={-50}
       >
-        <Form />
+        <Form guest={guest} />
       </ShowContent>
     </div>
   );
