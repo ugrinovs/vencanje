@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.e2253b9c.css",
-    "main.js": "/static/js/main.96086ca1.js",
+    "main.css": "/static/css/main.04a83669.css",
+    "main.js": "/static/js/main.3c7c119f.js",
     "static/js/787.78fd2e3a.chunk.js": "/static/js/787.78fd2e3a.chunk.js",
     "static/media/pozivnica-prednja.jpg": "/static/media/pozivnica-prednja.80884cd8722861c31976.jpg",
+    "static/media/parisienne.regular.ttf": "/static/media/parisienne.regular.43979c8f25410619d821.ttf",
+    "static/media/GesseleRegular-JR0m.ttf": "/static/media/GesseleRegular-JR0m.64bdccba16618516c22c.ttf",
     "static/media/subset-LovelyGraceBG.woff": "/static/media/subset-LovelyGraceBG.7bc360e9802181a3ac1c.woff",
     "static/media/subset-LovelyGraceBG.woff2": "/static/media/subset-LovelyGraceBG.f32e2893be7a587e3444.woff2",
     "static/media/icons8-trash.svg": "/static/media/icons8-trash.9fd5c8d41cc788904127847177d46e2d.svg",
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.c780682470504fffbd04.cjs",
-    "main.e2253b9c.css.map": "/static/css/main.e2253b9c.css.map",
-    "main.96086ca1.js.map": "/static/js/main.96086ca1.js.map",
+    "main.04a83669.css.map": "/static/css/main.04a83669.css.map",
+    "main.3c7c119f.js.map": "/static/js/main.3c7c119f.js.map",
     "787.78fd2e3a.chunk.js.map": "/static/js/787.78fd2e3a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2253b9c.css",
-    "static/js/main.96086ca1.js"
+    "static/css/main.04a83669.css",
+    "static/js/main.3c7c119f.js"
   ]
 }
