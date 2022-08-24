@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2a76be58.css",
-    "main.js": "/static/js/main.75210368.js",
+    "main.css": "/static/css/main.bff5d062.css",
+    "main.js": "/static/js/main.43604699.js",
     "static/js/787.78fd2e3a.chunk.js": "/static/js/787.78fd2e3a.chunk.js",
     "static/media/pozivnica-prednja.jpg": "/static/media/pozivnica-prednja.80884cd8722861c31976.jpg",
     "static/media/parisienne.regular.ttf": "/static/media/parisienne.regular.43979c8f25410619d821.ttf",
@@ -12,12 +12,12 @@
     "static/media/icons8-trash.svg": "/static/media/icons8-trash.9fd5c8d41cc788904127847177d46e2d.svg",
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.c780682470504fffbd04.cjs",
-    "main.2a76be58.css.map": "/static/css/main.2a76be58.css.map",
-    "main.75210368.js.map": "/static/js/main.75210368.js.map",
+    "main.bff5d062.css.map": "/static/css/main.bff5d062.css.map",
+    "main.43604699.js.map": "/static/js/main.43604699.js.map",
     "787.78fd2e3a.chunk.js.map": "/static/js/787.78fd2e3a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a76be58.css",
-    "static/js/main.75210368.js"
+    "static/css/main.bff5d062.css",
+    "static/js/main.43604699.js"
   ]
 }
